@@ -1,22 +1,19 @@
-# FizzBuzz
+# Poker Game
 
-### Step 1
-Write a program that returns array of numbers from 1 to 100, while multiples of three return "Fizz" instead of the number, multiples of five return "Buzz". Multiples of both three and five return "FizzBuzz".
+Given various poker hands as arguments, print what type of hand each argument is.
 
-### Step 2
-Add a way to change range, instead of printing numbers from 1 to 100. Examples: numbers from 1 to 20, from 15 to 50.
+The list of hands in ranking order are as follows:
 
-### Step 3
-Add rules for 7 and 11: 7 returns "Foo", 11 returns "Boo" and multiples of both return "FooBoo".
-
-### Step 4
-Add new rule for numbers smaller than 16 which return "Small" and a rule for numbers bigger than 95 which return "Big".
-
-### Step 5
-Add ability to change rules for initial requirement, instead of "Fizz" (multiples of 3) return "Buzz", and instead of "Buzz" (multiples of 5) return "Fizz"
-
-### Step 6
-Add new rule for "multiples of 3 and 5" return "FTW", and for "multiples of 3 or 5" return "GG"
+Royal Flush 🃁🃎🃍🃋🃊 Ten to Ace of the same suit
+Straight Flush 🃛🃚🃙🃘🃗 Five consecutive cards of the same suit
+Four of a Kind 🃕🃅🂵🂥🃂 Four cards of the same rank
+Full House 🂦🂶🃆🃞🂾 Three of a Kind combined with a Pair
+Flush 🃋🃉🃈🃄🃃 Five cards of the same suit
+Straight 🃊🂩🂸🃇🃖 Five consecutive cards
+Three of a Kind 🃝🂭🂽🂹🂢 Three cards of the same rank
+Two Pair 🂻🂫🃓🂣🂲 Two separate pairs
+Pair 🂪🂺🂨🂷🃔 Two cards of the same rank
+High Card 🃎🃍🂧🂤🂳 No other hand applies
 
 
 ## Rules and Usage
@@ -35,8 +32,6 @@ Which means the workflow is:
 1. Write a failing test. Stop writing the test as soon as it fails.
 2. Write the minimal production code required for the test to pass. Stop writing any code once the test passes.
 3. Refactor the test code and the production code without altering the functionality. All tests should pass.
-
-
 
 
 Before starting any of the tasks in this Learning Path, please READ the following rules
